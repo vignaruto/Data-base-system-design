@@ -46,8 +46,6 @@ int Algebra::select(char srcRel[ATTR_SIZE], char targetRel[ATTR_SIZE], char attr
   /*** Convert strVal (string) to an attribute of data type NUMBER or STRING ***/
   int type = attrCatEntry.attrType;
   Attribute attrVal;
-  printf("x");
-
   if (type == NUMBER) {
     if (isNumber(strVal)) {       // the isNumber() function is implemented below
       attrVal.nVal = atof(strVal);
