@@ -5,6 +5,7 @@
 
 unsigned char StaticBuffer::blocks[BUFFER_CAPACITY][BLOCK_SIZE];
 struct BufferMetaInfo StaticBuffer::metainfo[BUFFER_CAPACITY];
+int StaticBuffer::cmpattrs;
 
 StaticBuffer::StaticBuffer() {
 
